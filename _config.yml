@@ -1,0 +1,15 @@
+title: The Fast Track to DAML
+baseurl: "/daml-cheat-sheet"
+description: "The Fast Track to DAML - DAML Cheat Sheet"
+github_username: digitalasset
+markdown: kramdown
+
+t:
+  en:
+    name: "English"
+    fast-track: "The Fast Track to "
+    quick-dirty: "The TL;DR; for "
+    github-1: "This page's source is"
+    github-2: "located here"
+    github-3: "Pull requests are welcome!"
+    translate: "Help translate!" # Not used for `en`

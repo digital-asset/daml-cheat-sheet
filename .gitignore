@@ -1,0 +1,10 @@
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/deps.jl
+.vscode
+_site
+.jekyll-cache
+.jekyll-metadata
+default.nix
+.envrc
