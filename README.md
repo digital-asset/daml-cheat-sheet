@@ -4,3 +4,7 @@
 
 Copyright 2020 Digital Asset (Switzerland) GmbH and/or its affiliates. All Rights Reserved.
 SPDX-License-Identifier: MIT
+
+# DAML Cheat-Sheet
+
+This repository contains the source code behind the DAML cheat-sheet.
