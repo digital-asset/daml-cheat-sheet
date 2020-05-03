@@ -13,7 +13,7 @@ do
 
 | -------------------- | ----------------------------------------------------- |
 | `create` | create an instance of the given template on the ledger <br> `create NameOfTemplate with exampleParameters` |
-| `exercise` | exercise a choice on a given contract by contract id <br> `exercise IfOfContract NameOfChoiceContract with choiceArgument1 = value1 `|
+| `exercise` | exercise a choice on a given contract by contract id <br> `exercise IdOfContract NameOfChoiceContract with choiceArgument1 = value1 `|
 | `exerciseByKey` | exercise a choice on a given contract by contract key <br> `exerciseByKey @ContractType contractKey NameOfChoiceOnContract with choiceArgument1 = value1 ` |
 | `fetch` | fetch the contract data from the ledger given by contract id <br> `fetchedContract <- fetch IdOfContract `|
 | `fetchByKey` | fetch the contract data from the ledger given by contract key <br> `fetchedContract <- fetchByKey @ContractType contractKey` |
@@ -23,4 +23,4 @@ do
 | `getTime` | get the ledger effective time <br> `currentTime <- getTime `|
 | `return` | return a value from a `do` block <br> `return 42`|
 | `let` | bind a local variable or define a local function within the update `do` block <br> `let createContract x = create NameOfContract with issuer = x; owner = x` <br> `let answer = 42 `|
-| `this` | refers to the current contract data that contains this update in a choice <br> `create NewContract with owner = this.owner` | 
+| `this` | refers to the current contract data that contains this update in a choice <br> `create NewContract with owner = this.owner` |
