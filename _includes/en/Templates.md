@@ -23,7 +23,7 @@ template MyData
 
 | -------------------- | ----------------------------------------------------- |
 | `signatory`            | Observes the contract and its evolution. Gives the signatory's authority to all the defined contract updates in the contract choices. |
-| `observer`             | Observes the contract and its evolution |
-| `key` | A field of the contract data used as primary index of contracts defined by this template, see `Contract Keys` |
-| `maintainer` | A set of parties that guarantee uniqueness of contract keys of this template on the ledger, see `Contract Keys` |
+| `observer`             | Observes the contract and its evolution. |
+| `key` | A field of the contract data used as primary index of contracts defined by this template, see `Contract Keys`. |
+| `maintainer` | A set of parties that guarantee uniqueness of contract keys of this template on the ledger, see `Contract Keys`. |
 
