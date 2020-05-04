@@ -2,15 +2,14 @@ The choices of a contract template specify the rules on how and by whom contract
 changed.
 
 ```
-(nonconsuming) choice NameOfChoice : () 
--- optional nonconsuming annotation, name and return type of the choice
+(nonconsuming) choice NameOfChoice : ()
+-- optional nonconsuming annotation, name and choice return type
   with
     party1 : Party          -- choice arguments
     party2 : Party
     i : Int
   controller party1, party2 -- parties that can execute this choice
-    do                      -- the update that will 
-                            -- be executed 
+    do                      -- the update that will be executed
       assert (i == 42)
       create ...
       exercise ...
