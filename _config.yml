@@ -1,5 +1,5 @@
 title: The Fast Track to DAML
-baseurl: "/daml-cheat-sheet"
+baseurl: "."
 description: "The Fast Track to DAML - DAML Cheat Sheet"
 github_username: digitalasset
 markdown: kramdown
