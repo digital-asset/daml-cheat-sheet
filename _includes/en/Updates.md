@@ -24,3 +24,4 @@ do
 | `return` | return a value from a `do` block <br> `return 42`|
 | `let` | bind a local variable or define a local function within the update `do` block <br> `let createContract x = create NameOfContract with issuer = x; owner = x` <br> `let answer = 42 `|
 | `this` | refers to the current contract data that contains this update in a choice <br> `create NewContract with owner = this.owner` |
+| `forA` | run a for loop of actions over a list <br> `forA [alice, bob, charlie] $ \p -> create NewContract with owner = p` |
