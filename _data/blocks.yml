@@ -1,5 +1,7 @@
 - file: What-is.md
   title: What is…?
+- file: Concepts.md
+  title: Concepts
 - file: CommandLine.md
   title: Command line tools
 - file: Basics.md
