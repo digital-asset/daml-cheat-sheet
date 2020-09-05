@@ -16,7 +16,7 @@ do
 | `exercise` | exercise a choice on a given contract by contract id <br> `exercise IdOfContract NameOfChoiceContract with choiceArgument1 = value1 `|
 | `exerciseByKey` | exercise a choice on a given contract by contract key <br> `exerciseByKey @ContractType contractKey NameOfChoiceOnContract with choiceArgument1 = value1 ` |
 | `fetch` | fetch the contract data from the ledger by contract id <br> `fetchedContract <- fetch IdOfContract `|
-| `fetchByKey` | fetch the contract data from the ledger by contract key <br> `fetchedContract <- fetchByKey @ContractType contractKey` |
+| `fetchByKey` | fetch the contract id and data from the ledger by contract key <br> `fetchedContract <- fetchByKey @ContractType contractKey` |
 | `lookupByKey` | check whether a contract with the given key exists and if yes, return the contract id <br> `fetchedContractId <- lookupByKey @ContractType contractKey` |
 | `abort` | abort a transaction with an error message, the transaction will not be committed to the ledger <br> `abort errorMessage` |
 | `assert` | assert that a given predicate holds, otherwise fail the transaction <br> `assert (condition == True)` |
