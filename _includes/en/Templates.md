@@ -12,7 +12,7 @@ template MyData
   where
     signatory party1
     observer  party2
-    key dataKey
+    key dataKey : (Party, Text)
     maintainer key._1
 
     choice MyChoice : ()
