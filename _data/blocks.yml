@@ -20,7 +20,9 @@
   title: Choices
 - file: Updates.md
   title: Updates
-- file: Interact.md
-  title: Interacting with the ledger
+- file: Scripts.md
+  title: Scripts
+- file: JavaScript.md
+  title: JavaScript/React API
 - file: Resources.md
   title: DAML resources

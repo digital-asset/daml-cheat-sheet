@@ -7,7 +7,7 @@
 | Partial application of functions | `salute : Text -> Text` |
 | | `salute = f "Hello"`|
 
-Functions are first class members of DAML, in particular, functions can be arguments to functions
+Functions are first class members of Daml, in particular, functions can be arguments to functions
 ```
 apply : (Text -> Text) -> Text -> Text
 apply h x = h x 
