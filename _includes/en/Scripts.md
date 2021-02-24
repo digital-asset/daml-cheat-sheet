@@ -25,5 +25,5 @@ Scripts are compiled like usual Daml code to a `dar` package with the `daml buil
 | Exercise a choice on a contract | `exerciseCmd contractId ChoiceName with ... ` |
 | Exercise a choice on a contract by contract key | `exerciseByKeyCmd contractKey ChoiceName with ... ` |
 | Create and then exercise a choice on the created contract | `createAndExerciseCmd (ExampleTemplate with ... ) (ChoiceName with ...)` |
-| Pass time on the ledger (only applicable for a ledger running in **STATIC TIME MODE**) |  `passTime (hours 10)` |
-| Set time on the ledger (only applicable for a ledger running in **STATIC TIME MODE**) | `setTime (time (date 2007 Apr 5) 14 30 05)` |
+| Pass time on the ledger (only applicable for a ledger running in **STATIC TIME MODE**, like the in-memory ledger of Daml Studio or `daml test`) |  `passTime (hours 10)` |
+| Set time on the ledger (only applicable for a ledger running in **STATIC TIME MODE**, like the in-memory ledger of Daml Studio or `daml test`) | `setTime (time (date 2007 Apr 5) 14 30 05)` |
