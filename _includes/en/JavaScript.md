@@ -1,4 +1,4 @@
-DAML ledgers expose a unified API for interaction.
+Daml ledgers expose a unified API for interaction.
 
 The following describes how to interact with a ledger using the <a
 href="https://www.typescriptlang.org"> TypeScript </a> libraries `@daml/ledger`, `@daml/react` in a
