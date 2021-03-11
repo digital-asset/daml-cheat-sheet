@@ -1,5 +1,5 @@
 title: The Fast Track to Daml
-baseurl: ""
+baseurl: "." # this needs to be set for deployment!
 description: "The Fast Track to Daml - Daml Cheat Sheet"
 github_username: digitalasset
 markdown: kramdown
