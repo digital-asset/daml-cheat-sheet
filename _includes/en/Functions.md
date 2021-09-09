@@ -3,7 +3,7 @@
 | Definition | `f x y = x <> " " <> y` |
 | Lambda definition | `\x y -> x <> y` |
 | Polymorphic functions | `f : (Show a, Eq a) => a -> Text -> Text`|
-| Function application | ` f "hello" "world!" ` |
+| Function application | `f "hello" "world!"` |
 | Partial application of functions | `salute : Text -> Text` |
 | | `salute = f "Hello"`|
 
