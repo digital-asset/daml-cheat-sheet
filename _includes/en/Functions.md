@@ -4,8 +4,7 @@
 | Lambda definition | `\x y -> x <> y` |
 | Polymorphic functions | `f : (Show a, Eq a) => a -> Text -> Text`|
 | Function application | `f "hello" "world!"` |
-| Partial application of functions | `salute : Text -> Text` |
-| | `salute = f "Hello"`|
+| Partial application of functions | `salute : Text -> Text`<br>`salute = f "Hello"`|
 
 Functions are first class members of Daml, in particular, functions can be arguments to functions
 ```
