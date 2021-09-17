@@ -1,4 +1,4 @@
 - [Official documentation](https://docs.daml.com)
 - [The Daml code repository](https://github.com/digital-asset/daml)
 - [A Daml project template](https://github.com/digital-asset/create-daml-app)
-- [Read about how people are using Daml on the DAML Blog](https://daml.com/daml-driven)
+- [Read about how people are using Daml on the Daml Blog](https://daml.com/blog)
