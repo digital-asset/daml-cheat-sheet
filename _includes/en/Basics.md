@@ -6,6 +6,5 @@
 Every Daml file starts with a module header like this:
 
 ```
-daml 1.2
 module Foo where
 ```
