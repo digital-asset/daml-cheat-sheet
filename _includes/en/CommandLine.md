@@ -2,7 +2,7 @@
 | -------------------- | ----------------------------------------------------- |
 | Install the daml assistant | `curl -sSL https://get.daml.com | sh -s <version>` |
 | Create a new Daml project | `daml new <myproject>` |
-| Create a new Daml/React full stack project | `daml new create-daml-app --template create-daml-app` |
+| Create a new Daml/React full stack project | `daml new <myproject> --template create-daml-app` |
 | Start the IDE | `daml studio` |
 | Build project | `daml build` |
 | Build project, start the sandbox and JSON-API | `daml start` |

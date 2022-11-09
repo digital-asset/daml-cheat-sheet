@@ -1,5 +1,5 @@
 | ------------------------ | ------------------------------------------------- |
-| Type annotation          | `var : TypeName`|
+| Type annotation          | `myVar : TypeName`|
 | Builtin types | `Int, Decimal, Numeric n, Text, Bool, Party, Date, Time, RelTime` |
 | Type synonym | `type MyInt = Int` |
 | Lists | `type ListOfInts = [Int]`|
