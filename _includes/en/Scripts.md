@@ -5,7 +5,7 @@ module Test where
 
 import Daml.Script
 
-test = Script ()
+test : Script ()
 test = do 
   alice <- allocateParty "Alice" 
   bob <- allocateParty "Bob"
