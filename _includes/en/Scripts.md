@@ -21,6 +21,8 @@ Scripts are compiled like usual Daml code to a `dar` package with the `daml buil
 | Allocating a party on the ledger | `alice <- allocateParty "Alice"` |
 | List all known parties on the ledger | `parties <- listKnownParties` |
 | Query for a given contract template visible to a given party | `query @ExampleTemplate alice` |
+| Query for a contract given its contract id | `queryContractId alice contractId` |
+| Query for a contract given its contract key | `queryContractKey @ExampleTemplate alice contractKey` |
 | Create a new contract | `createCmd ExampleTemplate with ...` |
 | Exercise a choice on a contract | `exerciseCmd contractId ChoiceName with ... ` |
 | Exercise a choice on a contract by contract key | `exerciseByKeyCmd contractKey ChoiceName with ... ` |
