@@ -1,6 +1,5 @@
 |                                                       |                                                                             |
 |-------------------------------------------------------|-----------------------------------------------------------------------------|
-| Install the daml assistant                            | `curl -sSL https://get.daml.com | sh -s <version>`                          |
 | Create a new Daml project                             | `daml new <myproject>`                                                      |
 | Start the IDE                                         | `daml studio`                                                               |
 | Build project                                         | `daml build`                                                                |
