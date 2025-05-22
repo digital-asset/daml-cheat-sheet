@@ -18,6 +18,7 @@ changed.
 
 Choices can be `consuming` or `nonconsuming`.
 
-| -------------------- | ----------------------------------------------------- |
-|`consuming`| The default. The contract is consumed by this choice. Trying to exercise another choice on the same contract id will fail.|
-|`nonconsuming`| The contract is not consumed by this choice and more choices can be exercised. |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| `preconsuming`  | The default. The contract is consumed at the beginning of this choice. Trying to exercise another choice on the same contract id will fail. |
+| `postconsuming` | Like `preconsuming`, except the contract is archived at the _end_ of the processing of a choice (contract still exists during processing).  |
+| `nonconsuming`  | The contract is not consumed by this choice and more choices can be exercised.                                                              |
