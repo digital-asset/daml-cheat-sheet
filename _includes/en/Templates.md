@@ -8,12 +8,9 @@ template MyData
     i : Int
     party1 : Party
     party2 : Party
-    dataKey : (Party, Text)
   where
     signatory party1
     observer  party2
-    key dataKey : (Party, Text)
-    maintainer key._1
 
     choice MyChoice : ()
     ...
@@ -21,9 +18,7 @@ template MyData
 
 `with` and `where` are keywords to structure the template.
 
-| -------------------- | ----------------------------------------------------- |
-| `signatory`            | Observes the contract and its evolution. Gives the signatory's authority to all the defined contract updates in the contract choices. |
-| `observer`             | Observes the contract and its evolution. |
-| `key` | A field of the contract data used as primary index of contracts defined by this template, see `Contract Keys`. |
-| `maintainer` | A set of parties that guarantee uniqueness of contract keys of this template on the ledger, see `Contract Keys`. |
-
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| `signatory` | Observes the contract and its evolution. Gives the signatory's authority to all the defined contract updates in the contract choices. |
+| `observer`  | Observes the contract and its evolution.                                                                                              |
+| `choice`    | See sectinon about choices.                                                                                                           |
